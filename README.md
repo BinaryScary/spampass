@@ -3,7 +3,7 @@ Adds DKIM, DATE, Message_Id headers to SMTP envelope
 Modified from https://pypi.org/project/dkimpy/ dkimsign command
 
 ## Usage
-Add headers and send email through SMTP
+Add headers and send email through SMTP \
 `cat [smtp.txt] | python3 spampass.py [selector] [domain] [file.key] | nc [reciver-smtp] [25|587]`
 
 "SMTP Envelope" Format
